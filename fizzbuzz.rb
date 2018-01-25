@@ -2,7 +2,8 @@ def fizzbuzz(number)
   result = ""
   if (number % 3 == 0)
     result = "Fizz"
-  elsif (number % 5 == 0)
+  end
+  if (number % 5 == 0)
     result += "Buzz"
   end
   result
