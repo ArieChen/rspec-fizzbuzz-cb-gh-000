@@ -8,4 +8,3 @@ def fizzbuzz(number)
   end
   result
 end
-puts fizzbuzz(1)
